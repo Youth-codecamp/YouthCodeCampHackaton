@@ -1,0 +1,33 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Inter:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+  @import "./header/header.css";
+  @import "./sponsor/sponsor.css";
+
+  *,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+
+:root{
+ --primary-color: #fff;
+ --secondary-color: #000;
+ --third-color: #3A4B4C;
+ --main-color:#45A3A9;
+ --button-color: #005B61;
+ --fourth-color: #C5FCFF;
+ --darktwo-color:#45424b;
+ --main-font:'Lato', sans-serif;
+ --other-font: 'Roboto', sans-serif;
+ }
+
+ body{
+  font-family: var(--main-font);
+ }
+
+ img{
+  width: 100%;
+ }
+
+ 
