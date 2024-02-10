@@ -1,0 +1,126 @@
+.register{
+    background-color: var(--button-color);
+    width: 100%;
+    color: var(--primary-color);
+    height: 381px;
+}
+
+.register_heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 40px;
+}
+
+.register_title{ 
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    line-height: 18.76px;
+    align-items: center;
+}
+
+.register_subtitle{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40.88px;
+    text-align: center;
+}
+
+.register_span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40.88px;
+    text-align: center;
+}
+
+.register h4{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 23.36px;
+
+}
+
+.register_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.register_btn_1{
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24.96px;
+    color: var(--button-color);
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding:14px 28.71px 19.14px 28.71px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.register_btn_1:hover{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    background-color: var(--button-color);
+
+}
+
+.register_btn_2{
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24.96px;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding:19.14px 28.71px 19.14px 28.71px;
+    border-radius: 4px;
+    margin-left: 20px;
+    border: 1px solid var(--primary-color);
+}
+
+.register_btn_2:hover{
+    background-color: var(--primary-color);
+    color: var(--button-color);
+}
+
+@media (max-width: 768px){
+    .register_heading{
+        padding-top: 20px;
+    }
+    .register_title{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .register_subtitle{
+        font-size: 24px;
+    }
+    .register_span{
+        font-size: 24px;
+    }
+    .register h4{
+        font-size: 14px;
+    }
+    .register_buttons{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .register_btn_1{
+        padding: 10px 20px 14px 20px;
+        margin-right: 10px;
+    }
+    .register_btn_2{
+        padding: 14px 20px 14px 20px;
+        margin-left: 10px;
+    }
+}

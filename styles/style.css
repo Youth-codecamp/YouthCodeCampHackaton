@@ -3,6 +3,12 @@
 
   @import "./header/header.css";
   @import "./sponsor/sponsor.css";
+  @import "./aboutus/about.css";
+  @import "./mission/mission.css";
+  @import "./register/register.css";
+  @import "./team/team.css";
+  @import "./footer/footer.css";
+  @import "./Ready/ready.css";
 
   *,*::before,*::after{
     box-sizing: border-box;
@@ -24,10 +30,16 @@
 
  body{
   font-family: var(--main-font);
+  width: 100%;
  }
 
  img{
   width: 100%;
  }
 
- 
+ .separator-line {
+  background-color: #C5FCFF;
+  height: 2px;
+  margin: 0;
+  padding: 0;
+}

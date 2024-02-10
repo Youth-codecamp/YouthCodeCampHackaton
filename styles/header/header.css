@@ -91,7 +91,7 @@ header nav ul li a:hover {
     left: -100%;
     top: 80px;
     width: 100%;
-    background: #64bcf4;
+    background: var(--main-color);
     padding: 30px;
     transition: 0.3s;
   }

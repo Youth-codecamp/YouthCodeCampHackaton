@@ -1,11 +1,9 @@
-.sponsor{
-    background-color: #FBF6FF;
-    padding-top: 30px;
+.mission{
+    background-color: var(--primary-color);
     width: 100%;
-    padding-bottom: 30px;
 }
 
-.sponsor_heading{
+.mission_heading{
     width: 90%;
     display: flex;
     justify-content: center;
@@ -13,9 +11,10 @@
     flex-direction: column;
     text-align: center;
     margin: 20px auto;
+    padding-top: 60px;
 }
 
-.sponsor_title{ 
+.mission_title{ 
     font-size: 14px;
     font-weight: 600;
     color: var(--button-color);
@@ -23,187 +22,195 @@
     line-height: 18.76px;
 }
 
-.sponsor_subtitle{
+.mission_subtitle{
     font-size: 28px;
     font-weight: 500;
     line-height: 40.88px;
     color: var(--secondary-color);
-    margin-bottom: 35px;
+    text-align: center;
 }
 
-.sponsor_container{
+.mission_span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40.88px;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+
+.mission_container{
     width: 90%;
-    margin: 0 auto;
-    padding: 10px 164px;
+    margin: 30px auto;
+    padding: 10px;
    
 }
 
-.sponsor_about{
+
+.mission_section{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     background-color: var(--primary-color);
-    border-radius: 10px;
     padding: 20px;
 }
 
-.sponsor_image{
+
+.mission_image {
     flex: 1;
     margin-left: 45px;
     overflow: hidden;
     padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.sponsor_image img{
-    max-width: 375px;
-    height: 220px;
-    border-radius: 10px;
+.mission_image img {
+    max-width: 565px;
+    height: 485px;
     display: block;
 }
 
-
-.sponsor_content{
+.mission_content{
     flex: 1;
+    margin-left: 50px;
 }
 
-.sponsor_content h2{
-    font-size: 20px;
-    margin-bottom: 15px;
-    color: var(--secondary-color);
-}
 
-.sponsor_content p {
-font-size: 16px;
-line-height: 23.36px;
-font-weight: 400;
-color: #3A4B4C;
+.mission_content p {
+font-size: 18px;
+line-height: 30.6px;
+font-weight: 500;
+color: var(--secondary-color);
 padding-right: 30px;
 }
 
-.sponsor_content .know_more{
-    display: inline-block;
-    padding: 10px 10px;
-    color: var(--secondary-color);
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 18.76px;
-    text-decoration: none;
-    border-radius: 4px;
-    margin-top: 15px;
-    border: 0.5px solid var(--main-color);
-    transition: 0.3s ease;
+.mission_know_more{
+font-size: 14px;
+font-weight: 600;
+line-height: 18.76px;
+color: var(--button-color);
+text-decoration: none;
+margin-bottom: 15px; 
 }
 
-.sponsor_content .know_more:hover{
-   color: var(--button-color);
-}
 
 @media screen and (max-width: 768px){
-    .sponsor_heading{
-        padding: 0 20px;
+    .mission_heading{
+        padding: 0px 20px;
+        text-align: center;
     }
-    .sponsor_title{
+    .mission_title{
         font-size: 14px;
     }
-    .sponsor_heading p{
+    .mission_heading p{
         font-size: 18px;
         margin-bottom: 0px;
         font-weight: 500;
     }
-    .sponsor_container{
+
+    .mission_span{
+        font-size: 18px;
+        margin-bottom: 0px;
+        font-weight: 500;
+    }
+
+    .mission_container{
         padding: 0px;
     }
-    .sponsor_about{
+    .mission_section{
         padding: 20px;
         flex-direction: column;
     }
-    .sponsor_image{
+    .mission_image{
         margin-right: 0px;
         margin-bottom: 20px;
         margin-left: 0px;
     }
-    .sponsor_content p{
+    .mission_content p{
         padding:0px;
         font-size: 16px;
     }
-    .sponsor_content .know_more{
+    .mission_content a{
         font-size: 16px;
     }
 }
 
+
 @media screen and (max-width: 820px){
-    .sponsor_container{
+    .mission_container{
         padding: 0px;
         margin: 30px;
     }
-    .sponsor_about{
+    .mission_us{
         padding: 20px;
     }
-    .sponsor_image img{
+    .mission_image img{
         width: 100%;
         height: auto;
     }
-    .sponsor_content p{
+    .mission_content p{
         padding:0px;
         font-size: 15px;
     }
-    .sponsor_content .know_more{
+    .mission_know_more{
         font-size: 14px;
     }
 }
 
 @media screen and (max-width: 912px){
-    .sponsor_container{
+    .mission_container{
         padding: 0px;
         margin: 30px;
     }
-    .sponsor_about{
+    .mission_section{
         padding: 20px;
     }
-    .sponsor_image img{
+    .mission_image img{
         width: 100%;
         height: auto;
     }
-    .sponsor_content p{
+    .mission_content p{
         padding:0px;
         font-size: 15px;
     }
-    .sponsor_content .know_more{
+    .mission_know_more{
         font-size: 14px;
     }
 }
 
 @media screen and (max-width: 1024px){
-    .sponsor_container{
+    .mission_container{
         padding: 0px;
         margin: 30px;
     }
-    .sponsor_about{
+    .mission_section{
         padding: 20px;
     }
-    .sponsor_image img{
+    .mission_image img{
         width: 100%;
         height: auto;
     }
-    .sponsor_content p{
+    .mission_content p{
         padding:0px;
         font-size: 15px;
     }
-    .sponsor_content .know_more{
+    .mission_know_more{
         font-size: 14px;
     }
 }
 
 
 @media screen and (min-width: 360px) and (max-width: 430px){
-    .sponsor_heading{
+    .mission_heading{
         padding: 0 15px;
     }
-    .sponsor_title{
+    .mission_title{
         font-size: 12px;
     }
-    .sponsor_about{
+    .mission_section{
         margin-right: 25px;
     }
 }

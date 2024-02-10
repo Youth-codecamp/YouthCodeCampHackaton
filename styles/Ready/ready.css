@@ -1,0 +1,17 @@
+.ready_heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.ready_title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.76px;
+    color: var(--button-color);
+}
+
+.ready_subtitle{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40.88px;
+    color: #001718;
+}
