@@ -60,8 +60,8 @@
     height: 50px;
     border-radius: 50%;
     position: absolute;
-    top: 275%;
-    left: 7.5%;
+    top: 375%;
+    left: 2.5%;
 }
 
 .anime_two{
@@ -70,8 +70,8 @@
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    top: 290%;
-    left: 11.5%;
+    top: 397.5%;
+    left: 6.5%;
 }
 
 .anime_three{
@@ -82,7 +82,7 @@
     height: 404px;
     border-radius: 300px 0 0 300px;
     position: absolute;
-    top: 275%;
+    top: 325%;
     right: 0%;
 }
 
