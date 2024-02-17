@@ -1,0 +1,14 @@
+{
+    "editor.wordWrap": "on",
+    "vim.camelCaseMotion.enable": true,
+    "vim.autoindent": false,
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.changeWordIncludesWhitespace": true,
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.visual": "line",
+    "vim.cursorStylePerMode.replace": "line-thin",
+    "vim.cursorStylePerMode.visualblock": "line-thin",
+    "vim.cursorStylePerMode.visualline": "block",
+    "liveServer.settings.port": 5501
+}
