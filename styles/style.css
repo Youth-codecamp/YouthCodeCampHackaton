@@ -9,6 +9,7 @@
   @import "./team/team.css";
   @import "./footer/footer.css";
   @import "./Ready/ready.css";
+  @import "./hero/hero.css";
 
   *,*::before,*::after{
     box-sizing: border-box;

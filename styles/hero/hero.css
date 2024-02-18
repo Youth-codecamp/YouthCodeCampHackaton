@@ -1,8 +1,87 @@
-*{
-    margin: auto;
-    box-sizing: border-box;
+.hero_section{
+    display: flex; padding: 50px 0;
 }
 
-.hero_section{
-    background-color:  #FBF6FF;
+.hero_left{
+    display: flex; flex-direction: column; padding: 80px; width: 50%; gap: 20px;
+}
+
+.hero_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_youth{
+    color: #005B61;
+}
+
+.hero_place{
+    font-weight: bolder; font-size: xx-large; width: 70%; color: #001718;
+}
+
+.hero_join{
+    width: 70%; color: #3A4B4C;
+}
+
+.hero_button{
+    display: flex; gap: 25px;
+}
+
+.hero_button_one{
+    font-weight: bolder; color: white; font-size: large; padding: 20px; border-radius: 5px; background-color: #005B61; border: none; cursor: pointer;
+}
+
+.hero_button_two{
+    font-weight: bolder; color: #3A4B4C; font-size: large; padding: 20px; border-radius: 5px; border-color: #45A3A9; border-width: 0.5px; background-color: white; cursor: pointer;
+}
+
+.project_time{
+    display: flex; flex-direction: column; gap: 15px;
+}
+
+.project_head{
+    font-size: large; font-weight: bold; color: #001718;
+}
+
+.time_section{
+    display: flex; gap: 40px; color: #001718; font-size: small;
+}
+
+.mon, .days, .hrs, .min{
+    display: flex; gap: 5px;
+}
+
+@media ( max-width: 1024px){
+    .hero_right{
+        display: none;
+    }
+    .hero_left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project_time{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero_join{
+        text-align: center;
+    }
+    .hero_place{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    .hero_button{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero_place{
+        font-size: 22.5px;
+    }
 }
