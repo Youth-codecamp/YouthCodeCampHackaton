@@ -2,14 +2,15 @@
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Inter:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
   @import "./header/header.css";
-  @import "./sponsor/sponsor.css";
-  @import "./aboutus/about.css";
-  @import "./mission/mission.css";
-  @import "./register/register.css";
-  @import "./team/team.css";
-  @import "./footer/footer.css";
-  @import "./Ready/ready.css";
-  @import "./hero/hero.css";
+  @import "./about.css";
+  @import "./footer.css";
+  @import "./hero.css";
+  @import "./mission.css";
+  @import "./ready.css";
+  @import "./register.css";
+  @import "./sponsor.css";
+  @import "./team.css";
+
 
   *,*::before,*::after{
     box-sizing: border-box;
