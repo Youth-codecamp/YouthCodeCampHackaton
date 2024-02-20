@@ -1,0 +1,148 @@
+.hero_section{
+    display: flex;
+    padding:0px;
+}
+
+.hero_left{
+    display: flex;
+    flex-direction: column;
+    padding:80px;
+    gap: 20px;
+}
+
+.hero_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hero_youth{
+    color: #005B61;
+    font-size: 14px;
+}
+
+.hero_place{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42.88px;
+    color: #001718;
+}
+
+.hero_join{
+    color: #3A4B4C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.36px;
+
+}
+
+.hero_button{
+    display: flex;
+    gap: 25px;
+}
+
+.hero_button_one{
+    font-family: var( --other-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24.96px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #005B61;
+    cursor: pointer;
+}
+
+.hero_button_two{
+    font-weight: 500;
+    color: #3A4B4C;
+    font-size: 16px;
+    line-height: 24.96px;
+    padding: 24px;
+    border:0.5px solid #45A3A9;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.project_time{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project_head{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.76px;
+    color: #001718;
+}
+
+.time_section{
+    display: flex;
+    gap: 40px; color: #001718;
+    font-size: small;
+}
+
+.mon, .days, .hrs, .min{
+    display: flex;
+    gap: 5px;
+}
+
+@media ( max-width: 1024px){
+    .hero_left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project_time{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero_join{
+        text-align: center;
+    }
+    .hero_place{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    .hero_button{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero_place{
+        font-size: 22.5px;
+    }
+
+    .hero_button_one{
+        font-family: var( --other-font);
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 20.96px;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 24px;
+        background-color: #005B61;
+        cursor: pointer;
+    }
+    
+    .hero_button_two{
+        font-weight: 450;
+        color: #3A4B4C;
+        font-size: 14px;
+        line-height: 20.96px;
+        padding: 24px;
+        border:0.5px solid #45A3A9;
+        border-radius: 8px;
+        background-color: white;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,216 @@
+.mission{
+    background-color: var(--primary-color);
+    width: 100%;
+}
+
+.mission_heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 60px;
+}
+
+.mission_title{ 
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--button-color);
+    margin-bottom: 15px;
+    line-height: 18.76px;
+}
+
+.mission_subtitle{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40.88px;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.mission_span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40.88px;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+
+.mission_container{
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px;
+   
+}
+
+
+.mission_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    padding: 20px;
+}
+
+
+.mission_image {
+    flex: 1;
+    margin-left: 45px;
+    overflow: hidden;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission_image img {
+    max-width: 565px;
+    height: 485px;
+    display: block;
+}
+
+.mission_content{
+    flex: 1;
+    margin-left: 50px;
+}
+
+
+.mission_content p {
+font-size: 18px;
+line-height: 30.6px;
+font-weight: 500;
+color: var(--secondary-color);
+padding-right: 30px;
+}
+
+.mission_know_more{
+font-size: 14px;
+font-weight: 600;
+line-height: 18.76px;
+color: var(--button-color);
+text-decoration: none;
+margin-bottom: 15px; 
+}
+
+
+@media screen and (max-width: 768px){
+    .mission_heading{
+        padding: 0px 20px;
+        text-align: center;
+    }
+    .mission_title{
+        font-size: 14px;
+    }
+    .mission_heading p{
+        font-size: 18px;
+        margin-bottom: 0px;
+        font-weight: 500;
+    }
+
+    .mission_span{
+        font-size: 18px;
+        margin-bottom: 0px;
+        font-weight: 500;
+    }
+
+    .mission_container{
+        padding: 0px;
+    }
+    .mission_section{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .mission_image{
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+    .mission_content p{
+        padding:0px;
+        font-size: 16px;
+    }
+    .mission_content a{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 820px){
+    .mission_container{
+        padding: 0px;
+        margin: 30px;
+    }
+    .mission_us{
+        padding: 20px;
+    }
+    .mission_image img{
+        width: 100%;
+        height: auto;
+    }
+    .mission_content p{
+        padding:0px;
+        font-size: 15px;
+    }
+    .mission_know_more{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 912px){
+    .mission_container{
+        padding: 0px;
+        margin: 30px;
+    }
+    .mission_section{
+        padding: 20px;
+    }
+    .mission_image img{
+        width: 100%;
+        height: auto;
+    }
+    .mission_content p{
+        padding:0px;
+        font-size: 15px;
+    }
+    .mission_know_more{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .mission_container{
+        padding: 0px;
+        margin: 30px;
+    }
+    .mission_section{
+        padding: 20px;
+    }
+    .mission_image img{
+        width: 100%;
+        height: auto;
+    }
+    .mission_content p{
+        padding:0px;
+        font-size: 15px;
+    }
+    .mission_know_more{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 430px){
+    .mission_heading{
+        padding: 0 15px;
+    }
+    .mission_title{
+        font-size: 12px;
+    }
+    .mission_section{
+        margin-right: 25px;
+    }
+}

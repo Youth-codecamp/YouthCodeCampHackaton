@@ -1,0 +1,191 @@
+.ready_heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.ready_title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.76px;
+    color: var(--button-color);
+}
+
+.ready_subtitle{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40.88px;
+    color: #001718;
+}
+
+.ready_rules{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 80px;
+    gap: 40px;
+}
+
+.ready_rules_lists{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 20%;
+}
+
+.ready_rules_lists_section{
+    display: flex; 
+    gap: 30px;
+}
+
+.ready_rules_number{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background-color: #005B61;
+    border-radius: 50%;
+    padding: 13px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.ready_rules_para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap:15px;
+}
+
+.ready_rules_para_one{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: start;
+}
+
+.ready_rules_para_two{
+    color: #3A4B4C;
+    width: 320px;
+    text-align: start; 
+}
+
+.anime_one{
+    background-color: #34005D;
+    opacity: 0.5;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 590%;
+    left: 2.5%;
+}
+
+.anime_two{
+    background-color: #005B61;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 610%;
+    left: 6.5%;
+}
+
+.anime_three{
+    float: left;
+    background-color: #005B61;
+    opacity: 0.5;
+    width: 200px;
+    height: 404px;
+    position: absolute;
+    border-radius: 300px 0 0 300px;
+    top: 550%;
+    right: 0%;
+}
+
+@media (max-width: 978px) {
+      .ready_rules_lists{
+        gap: 75px;
+      }
+  }
+
+@media (max-width: 900px){
+    .ready_rules_lists {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        }
+        .ready_rules_para_two{
+            text-align: center;
+        }
+  }
+
+@media (max-width: 1280px){
+    .anime_three{
+        width: 125px;
+        height: 250px;
+        position: absolute;
+        top:315%;
+    }
+    .anime_one{
+        top: 350%;
+        left: 2.5%;
+        width: 40px;
+        height: 40px;
+    }
+    .anime_two{
+        display: none;
+    }
+}  
+
+@media (max-width: 1024px){
+    .ready_rules_para_two{
+        text-align: start;
+    }
+}  
+
+@media (max-width: 455px){
+    .ready_rules{
+        padding: 30px;
+    }
+    .ready_rules_lists_section{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ready_rules_para{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1112px){
+    .anime_three, .anime_one, .anime_two{
+        display: none;
+      }
+}
+
+.ready_heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.ready_title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.76px;
+    color: var(--button-color);
+}
+
+.ready_subtitle{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40.88px;
+    color: #001718;
+}

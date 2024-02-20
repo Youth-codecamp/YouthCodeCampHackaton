@@ -1,0 +1,102 @@
+.faq_faq_faq{
+    display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px;
+}
+
+.faq_faq{
+    display: flex; justify-content: center; align-items: center; text-align: center;
+}
+
+.faq_container{
+    display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 20px; padding: 40px;
+}
+
+.faq_container_1{
+    display: flex; flex-direction: column; width: 50%; gap: 20px;
+}
+
+.faq_container_2{
+    width: 50%;
+}
+
+.faq_container_1, .faq_container_2{
+    padding: 40px;
+}
+
+.container_1_one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container_1_faq_what{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container_1_faq{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    background: #EAFEFF;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container_1_one_div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    background: #FBFBFB;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.faq_container_2{
+    display: flex; flex-direction: column; width: 50%; gap: 20px;
+}
+
+@media (max-width: 540px){
+    .faq_container{
+        font-size: small;
+    }
+}
+
+@media (max-width: 830px){
+    .faq_container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 5px;
+    }
+    .faq_container_2, .faq_container_1{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 412px){
+    .faq_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: small;
+        gap: 20px;
+        padding: 20px;
+    }
+    .container_1_one_div{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .faq_container_1, .faq_container_2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    
+    
+}
