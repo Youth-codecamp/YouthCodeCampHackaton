@@ -146,3 +146,9 @@
         cursor: pointer;
     }
 }
+
+@media (max-width: 540px){
+    .hero_right{
+        display: none;
+    }
+}

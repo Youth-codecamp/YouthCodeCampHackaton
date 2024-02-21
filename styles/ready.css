@@ -78,8 +78,8 @@
     height: 50px;
     border-radius: 50%;
     position: absolute;
-    top: 590%;
-    left: 2.5%;
+    top: 4087px;
+    left: 20px;
 }
 
 .anime_two{
@@ -88,8 +88,8 @@
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    top: 610%;
-    left: 6.5%;
+    top: 4257px;
+    left: 75px;
 }
 
 .anime_three{
@@ -98,10 +98,10 @@
     opacity: 0.5;
     width: 200px;
     height: 404px;
-    position: absolute;
     border-radius: 300px 0 0 300px;
-    top: 550%;
-    right: 0%;
+    position: absolute;
+    top: 3880px;
+    right: 0px;
 }
 
 @media (max-width: 978px) {
@@ -123,29 +123,27 @@
         }
   }
 
+@media (max-width: 1133px){
+    .anime_one{
+        left: 12px;
+    }
+    .anime_two{
+        left: 10px;
+    }
+    .anime_three{
+        top: 3940px;
+    }
+    .ready_rules_para_two{
+        text-align: start;
+    }
+}
+
 @media (max-width: 1280px){
     .anime_three{
         width: 125px;
         height: 250px;
-        position: absolute;
-        top:315%;
     }
-    .anime_one{
-        top: 350%;
-        left: 2.5%;
-        width: 40px;
-        height: 40px;
-    }
-    .anime_two{
-        display: none;
-    }
-}  
-
-@media (max-width: 1024px){
-    .ready_rules_para_two{
-        text-align: start;
-    }
-}  
+}
 
 @media (max-width: 455px){
     .ready_rules{
@@ -176,6 +174,7 @@
     text-align: center;
     padding-bottom: 50px;
 }
+
 .ready_title{
     font-weight: 600;
     font-size: 14px;
