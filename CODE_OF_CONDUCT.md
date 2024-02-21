@@ -17,7 +17,7 @@ Welcome to the Youth Code Camp Hackathon! We want everyone to feel safe and resp
 - Behave well, both online and offline.
 - Don't do anything that could upset or scare anyone.
 
-## 4. Look After Stuff
+## 4. Respect for Space and Property
 
 - Respect the place where we're meeting and any equipment we're using.
 - Don't damage anything or make a mess.
@@ -27,12 +27,12 @@ Welcome to the Youth Code Camp Hackathon! We want everyone to feel safe and resp
 - Stick to the rules and laws.
 - Don't use things that belong to someone else without permission.
 
-## 6. Tell Someone if Something's Wrong
+## 6. Reporting Violations
 
 - If something bad happens or someone's not acting right, tell one of the organizers.
 - We'll keep it private and sort it out.
 
-## 7. What Happens if You Break the Rules
+## 7. Consequences of Violation
 
 - If you don't follow these rules, you might have to leave the event.
 - If you do something really bad, you might not be allowed to come back.
