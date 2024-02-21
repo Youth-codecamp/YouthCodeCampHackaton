@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="assets/Pictures/favicon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/db3392cfd6.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.10/dayjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.10/plugin/duration.min.js"></script>
 </head>
 <body> 
     <header>
@@ -49,20 +51,20 @@
                 <button class="hero_button_one" >Register your project now</button>
                 <button class="hero_button_two">Join Discord community</button>
             </div>
-            <div class="project_time" >
+            <div class="project_time" id="myCountdown">
                 <p class="project_head">Project submission deadline in</p>
                 <div class="time_section">
                     <div class="mon">
-                        <p>2</p><p> months</p>
+                        <p class="until--numeric--months"></p><p> months</p>
                     </div>
                     <div class="days">
-                        <p>30</p><p> days</p>
+                        <p class="until--numeric--days"></p><p> days</p>
                     </div>
                     <div class="hrs">
-                        <p>10</p><p> hours</p>
+                        <p class="until--numeric--hours"></p><p> hours</p>
                     </div>
                     <div class="min">
-                        <p>30</p><p> min</p>
+                        <p class="until--numeric--minutes"></p><p> min</p>
                     </div>
                 </div>
             </div>
@@ -419,5 +421,8 @@
             <p>&copy; 2024 Youth Code Camp. All rights reserved</p>
         </div>
     </section>
+
+    <script src="js/counting.js"></script>
+
 </body>
 </html>
