@@ -10,5 +10,9 @@
     "vim.cursorStylePerMode.replace": "line-thin",
     "vim.cursorStylePerMode.visualblock": "line-thin",
     "vim.cursorStylePerMode.visualline": "block",
+<<<<<<< HEAD
     "liveServer.settings.port": 5502
+=======
+    "liveServer.settings.port": 5501
+>>>>>>> 1244bad53bb20d350ff54092df6f6c7a0979a98b
 }
