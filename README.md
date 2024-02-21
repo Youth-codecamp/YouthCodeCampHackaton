@@ -37,6 +37,11 @@ The Youth Code Camp Hackathon is a day-long event designed to bring together you
 7. **Submission Deadline**: Projects must be ready for the showcase within the specified timeframe.
 8. **Original Work**: All projects must be original and developed prior to the hackathon.
 
+## Join Our Discord! 💬
+
+Join our Discord server to connect with fellow participants, ask questions, and stay updated with event announcements: [Youth Code Camp Discord](https://discord.com/invite/h5dfqzGZ22)
+
+
 ## Get Ready to Hack! 💻
 
 We look forward to seeing you at the Youth Code Camp Hackathon, where young programmers can collaborate, learn, and showcase their tech projects! If you have any further requests or modifications, feel free to reach out to us.
