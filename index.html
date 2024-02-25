@@ -144,85 +144,176 @@
         <div class="faq_container">
             <div class="faq_container_1">
                 <div class="container_1_faq">
-                    <i class="fa-regular fa-circle-check"></i>
-                    <div class="container_1_faq_what">
-                        <p class="p_question">What is Youth Code Camp Hackathon?</p>
-                        <p collabsable-id="1">
-                            The Youth Code Camp Hackathon is an exciting event that brings together young programmers to
-                            showcase their pre-developed projects, collaborate with peers, and learn from experienced
-                            mentors. It's a platform to celebrate innovation and creativity in the world of coding.
-                        </p>
+                    <div class="" style="display: flex; gap: 10px;">
+                        <!-- <i class="fa-regular fa-circle-check"></i> -->
+                        <i class="fa-regular fa-circle-question circleIcon"></i>
+                        <div class="container_1_faq_what">
+                            <p class="p_question">What is Youth Code Camp Hackathon?</p>
+                            <div class="slide_in">
+                                <p collabsable-id="1" class="answer hidden slide-in">
+                                    The Youth Code Camp Hackathon is an exciting event that brings together young
+                                    programmers to
+                                    showcase their pre-developed projects, collaborate with peers, and learn from
+                                    experienced
+                                    mentors. It's a platform to celebrate innovation and creativity in the world of coding.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <i trigger-id="1" id="question_trigger" class="fa-solid fa-chevron-down"></i>
+                    <i trigger-id="1" class="fa-solid fa-chevron-down qn_trigger" onclick="toggleChevron(this)"></i>
                 </div>
-                <div class="container_1_one">
-                    <div class="container_1_faq">
-                        <i class="fa-regular fa-circle-question"></i>
+                <div class="container_1_faq">
+                        <i class="fa-regular fa-circle-question circleIcon"></i>
                         <div class="container_1_faq_what">
-                            <p>When and where is the Hackathon taking place?</p>
-                            <p collabsable-id="2" class="hidden">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias exercitationem
-                                praesentium magni! Beatae saepe laudantium, veniam ratione illum nam quas explicabo
-                                omnis sequi debitis possimus quidem quaerat obcaecati deserunt. Tempore.
-                            </p>
+                            <p class="p_question">When and where is the Hackathon taking place?</p>
+                            <div class="slide_in">
+                                <p collabsable-id="2" class="answer hidden slide-in">
+                                    The hackathon is scheduled for April 6th, 2024, and will be hosted at Carnegie Mellon
+                                    University Africa. Please check the event details for specific times and location.
+                                </p>
+                            </div>
                         </div>
-                        <i trigger-id="2" id="question_trigger" class="fa-solid fa-chevron-down"></i>
-                    </div>
-                    <div class="container_1_one_div">
-                        <i class="fa-regular fa-circle-question"></i>
+                        <i trigger-id="2" class="fa-solid fa-chevron-down qn_trigger" onclick="toggleChevron(this)"></i>
+                </div>
+                <div class="container_1_faq">
+                        <i class="fa-regular fa-circle-question circleIcon"></i>
                         <div class="container_1_faq_what">
-                            <p>Who can participate in the hackathon?</p>
+                            <p class="p_question">Who can participate in the hackathon?</p>
+                            <div class="slide_in">
+                                <p collabsable-id="3" class="answer hidden slide-in">
+                                    The hackathon is open to both experienced coders and beginners. Whether you're a pro
+                                    or just starting out, everyone is welcome to join and contribute their skills and ideas.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="container_1_one_div">
-                        <i class="fa-regular fa-circle-question"></i>
-
-                        <p>How do I register for the hackathon?
-                        <p>
-
-                    </div>
-                    <div class="container_1_one_div">
-                        <i class="fa-regular fa-circle-question"></i>
-
-                        <p>Can I participate If I don't have a pre-developed project?</p>
-
-                    </div>
-                    <div class="container_1_one_div">
-                        <i class="fa-regular fa-circle-question"></i>
-
-                        <p>Are there any registration fees?</p>
-
-                    </div>
+                        <i trigger-id="3" class="fa-solid fa-chevron-down qn_trigger" onclick="toggleChevron(this)"></i>
+                </div>
+                <div class="container_1_faq">
+                        <i class="fa-regular fa-circle-question circleIcon"></i>
+                        <div class="container_1_faq_what">
+                            <p class="p_question">How do I register for the hackathon?</p>
+                            <div class="slide_in">
+                                <p collabsable-id="4" class="answer hidden slide-in">
+                                    To register, visit our website and fill out the online registration form. During registration,
+you will be required to upload a document showcasing details of your project.
+                                </p>
+                            </div>
+                        </div>
+                        <i trigger-id="4" class="fa-solid fa-chevron-down qn_trigger" onclick="toggleChevron(this)"></i>
+                </div>
+                <div class="container_1_faq">
+                        <i class="fa-regular fa-circle-question circleIcon"></i>
+                        <div class="container_1_faq_what">
+                            <p class="p_question">Can I participate if I don't have a pre-developed project?</p>
+                            <div class="slide_in">
+                                <p collabsable-id="5" class="answer hidden slide-in">
+                                    This hackathon is specifically designed for participants to showcase projects they have
+developed before the event. However, we encourage you to participate in future events
+and engage in the collaborative coding sessions we organize.
+                                </p>
+                            </div>
+                        </div>
+                        <i trigger-id="5" class="fa-solid fa-chevron-down qn_trigger" onclick="toggleChevron(this)"></i>
+                </div>
+                <div class="container_1_faq">
+                        <i class="fa-regular fa-circle-question circleIcon"></i>
+                        <div class="container_1_faq_what">
+                            <p class="p_question">Are there any registration fees?</p>
+                            <div class="slide_in">
+                                <p collabsable-id="6" class="answer hidden slide-in">
+                                    No, participation in the Youth Code Camp Hackathon is free of charge. We believe in
+providing an inclusive and accessible platform for all aspiring programmers.
+                                </p>
+                            </div>
+                        </div>
+                        <i trigger-id="6" class="fa-solid fa-chevron-down qn_trigger" onclick="toggleChevron(this)"></i>
                 </div>
             </div>
             <div class="faq_container_2">
-                <div class="container_1_one_div">
-                    <i class="fa-regular fa-circle-question"></i>
-                    <p>Is there a deadline for project submissions?</p>
+                <div class="container_1_faq">
+                    <div class="" style="display: flex; gap: 10px;">
+                        <!-- <i class="fa-regular fa-circle-check"></i> -->
+                        <i class="fa-regular fa-circle-question circleIcon"></i>
+                        <div class="container_1_faq_what">
+                            <p class="p_question">What should be included in the project document during registration?</p>
+                            <div class="slide_in">
+                                <p collabsable-id="7" class="answer hidden slide-in">
+                                    The project document should include details such as project goals, technologies used,
+and any other relevant information that gives an overview of your pre-developed project.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <i trigger-id="7" class="fa-solid fa-chevron-down qn_trigger" onclick="toggleChevron(this)"></i>
                 </div>
-                <div class="container_1_one_div">
-                    <i class="fa-regular fa-circle-question"></i>
-                    <p>How will projects be evaluated?</p>
+                <div class="container_1_faq">
+                        <i class="fa-regular fa-circle-question circleIcon"></i>
+                        <div class="container_1_faq_what">
+                            <p class="p_question"> Is there a deadline for project submissions?</p>
+                            <div class="slide_in">
+                                <p collabsable-id="8" class="answer hidden slide-in">
+                                    Yes, projects must be submitted within the specified timeframe provided during the
+                                    hackathon. Late submissions may not be considered for evaluation.
+                                </p>
+                            </div>
+                        </div>
+                        <i trigger-id="8" class="fa-solid fa-chevron-down qn_trigger" onclick="toggleChevron(this)"></i>
                 </div>
-                <div class="container_1_one_div">
-                    <i class="fa-regular fa-circle-question"></i>
-                    <p>What are the benefits of participating?</p>
+                <div class="container_1_faq">
+                        <i class="fa-regular fa-circle-question circleIcon"></i>
+                        <div class="container_1_faq_what">
+                            <p class="p_question">How will projects be evaluated?</p>
+                            <div class="slide_in">
+                                <p collabsable-id="9" class="answer hidden slide-in">
+                                    Projects will be evaluated based on criteria such as creativity, functionality, innovation,
+and presentation during the showcase. Judges will also consider the effectiveness of
+collaboration if applicable.
+                                </p>
+                            </div>
+                        </div>
+                        <i trigger-id="9" class="fa-solid fa-chevron-down qn_trigger" onclick="toggleChevron(this)"></i>
                 </div>
-                <div class="container_1_one_div">
-                    <i class="fa-regular fa-circle-question"></i>
-                    <p>How can I become a sponsor or partner for the hackathon?</p>
+                <div class="container_1_faq">
+                        <i class="fa-regular fa-circle-question circleIcon"></i>
+                        <div class="container_1_faq_what">
+                            <p class="p_question"> What are the benefits of participating?</p>
+                            <div class="slide_in">
+                                <p collabsable-id="10" class="answer hidden slide-in">
+                                    Participants have the opportunity to showcase their projects, network with other
+                                    programmers, learn from workshops, and potentially receive recognition and awards.
+                                    Additionally, the hackathon provides a platform to connect with mentors and sponsors.
+                                </p>
+                            </div>
+                        </div>
+                        <i trigger-id="10" class="fa-solid fa-chevron-down qn_trigger" onclick="toggleChevron(this)"></i>
                 </div>
-                <div class="container_1_one_div">
-                    <i class="fa-regular fa-circle-question"></i>
-                    <p>How can I become a sponsor or partner for the hackathon?</p>
+                <div class="container_1_faq">
+                        <i class="fa-regular fa-circle-question circleIcon"></i>
+                        <div class="container_1_faq_what">
+                            <p class="p_question">How can I become a sponsor or partner for the hackathon?</p>
+                            <div class="slide_in">
+                                <p collabsable-id="11" class="answer hidden slide-in">
+                                    If you are interested in becoming a sponsor or partner, please contact us at
+                                    liochastej@gmail.com. We welcome collaboration with organizations that share our vision
+                                    for supporting young programmers.
+                                </p>
+                            </div>
+                        </div>
+                        <i trigger-id="11" class="fa-solid fa-chevron-down qn_trigger" onclick="toggleChevron(this)"></i>
                 </div>
-                <div class="container_1_one_div">
-                    <i class="fa-regular fa-circle-question"></i>
-                    <p>What safety measures are in place for the event? It is the Youth Code Camp Hackathon?</p>
-                </div>
-                <div class="container_1_one_div">
-                    <i class="fa-regular fa-circle-question"></i>
-                    <p>What should be included in the project document during registration?</p>
+                <div class="container_1_faq">
+                        <i class="fa-regular fa-circle-question circleIcon"></i>
+                        <div class="container_1_faq_what">
+                            <p class="p_question">What safety measures are in place for the event?</p>
+                            <div class="slide_in">
+                                <p collabsable-id="12" class="answer hidden slide-in">
+                                    We prioritize the safety of our participants. We will adhere to all relevant health and
+safety guidelines, and any specific measures will be communicated closer to the event
+date.
+                                </p>
+                            </div>
+                        </div>
+                        <i trigger-id="12" class="fa-solid fa-chevron-down qn_trigger" onclick="toggleChevron(this)"></i>
                 </div>
             </div>
         </div>
@@ -373,7 +464,7 @@
                     <a href="#"><i class="fa-brands fa-github"></i></a>
                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-x-twitter"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
 
                 </div>
             </div>
@@ -385,7 +476,7 @@
                     <a href="#"><i class="fa-brands fa-github"></i></a>
                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-x-twitter"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                 </div>
             </div>
             <div class="team-box">
@@ -396,7 +487,7 @@
                     <a href="#" class="github"><i class="fa-brands fa-github"></i></a>
                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-x-twitter"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                 </div>
             </div>
             <div class="team-box">
@@ -407,7 +498,7 @@
                     <a href="#" class="github"><i class="fa-brands fa-github"></i></a>
                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-x-twitter"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                 </div>
             </div>
 
@@ -427,7 +518,8 @@
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="#">Partner with us</a></li>
                 <li><a href="#">Donate</a></li>
-                <li><a href="https://forms.gle/2z58NPK7bo5kuGyF6" target="_blank">Register</a></li>
+                <li><a href="https://forms.gle/2z58NPK7bo5kuGyF6" target="_blank">Register<a></li>
+            </ul>        
         </div>
         <div class="footer_partII">
             <h2>Contact info</h2>
