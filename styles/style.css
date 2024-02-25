@@ -31,6 +31,10 @@
  --other-font: 'Roboto', sans-serif;
  }
 
+ html{
+  scroll-behavior: smooth;
+ }
+
  body{
   font-family: var(--main-font);
   width: 100%;
@@ -51,4 +55,32 @@
 }
 #question_trigger {
   cursor: pointer;
+}
+
+.back-to-top{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--button-color);
+  border-radius: 2rem;
+  padding: 0.7rem;
+  text-decoration: none;
+  transition: 0.2s ease-out;
+}
+
+.back-to-top span{
+  font-size: 1.1rem;
+  transition: 0.2s ease-out;
+  color: var(--primary-color);
+}
+
+.back-to-top:hover{
+  background-color: #0c767e;
+}
+
+.back-to-top:hover span{
+  transform: translateY(-4px);
 }
