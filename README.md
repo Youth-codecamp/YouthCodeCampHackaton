@@ -1,6 +1,5 @@
 # 🚀 Youth Code Camp Hackathon 🎉
 
-![cover](https://github.com/Youth-codecamp/YouthCodeCampHackaton/assets/121980393/da5f6638-4acd-4635-9a5e-bf0512b02a9a)
 
 Welcome to the Youth Code Camp Hackathon! Get ready for an exciting day of coding, learning, and innovation! 🌟
 
