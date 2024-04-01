@@ -13,13 +13,12 @@ Welcome to the Youth Code Camp Hackathon! Get ready for an exciting day of codin
 
 - **8:00 AM - 9:00 AM**: Welcome and Distribution of Kits 🛍️
 - **9:00 AM - 9:30 AM**: Opening Session 🎤
-- **9:30 AM - 1:00 PM**: Workshops:
-  - Using GitHub 💻
-  - Sponsors and communities (Clubs) 🤝
-- **1:00 PM - 2:00 PM**: Lunch Break 🍔
-- **2:00 PM - 3:30 PM**: Project Showcase Preparation 🛠️
-- **3:30 PM - 4:30 PM**: Pizza Eating and Networking 🍕
-- **4:30 PM - 6:30 PM**: Project Showcasing and Awards 🏆
+- **9:30 AM - 10:30 PM**: Workshop(Sponsors and communities (Clubs) 🤝)
+- **10:30 AM - 11:30 PM**: Break Fast and Networking 🍕
+- **11:30 AM - 1:30 PM**: Workshop(Using GitHub 💻)
+- **1:30 PM - 2:30 PM**: Lunch Break 🍔
+- **2:30 PM - 3:30 PM**: Project Showcase Preparation 🛠️
+- **3:30 PM - 6:00 PM**: Project Showcasing and Awards 🏆
 
 ## About the Hackathon 🌐
 
