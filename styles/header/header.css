@@ -48,7 +48,7 @@ header nav ul li a:hover {
   transition: 0.3s;
 }
 
-.btn {
+.btnregister {
   background: var(--button-color);
   color: #fff;
   padding: 16px 24px;
@@ -59,7 +59,7 @@ header nav ul li a:hover {
   transition: 0.3s;
 }
 
-.btn:hover {
+.btnregister:hover {
   background-color: var(--main-color);
   color: var(--primary-color);
 }
@@ -79,6 +79,12 @@ header nav ul li a:hover {
 @media only screen and (max-width: 900px) {
   header {
     padding: 0 30px;
+  }
+  header nav ul li a:hover {
+    color: #fff;
+  }
+  .btnregister:hover {
+    background-color: var(--button-color);
   }
 }
 @media only screen and (max-width: 700px) {
@@ -104,10 +110,22 @@ header nav ul li a:hover {
   header nav ul li a {
     margin: 5px 0;
   }
+  header nav ul li a:hover {
+    color: black;
+  }
+  .btnregister:hover {
+    background-color: var(--button-color);
+  }
 }
 @media only screen and (max-width: 860px) {
   header nav ul li a {
     margin-right: 30px;
+  }
+  header nav ul li a:hover {
+    color: black;
+  }
+  .btnregister:hover {
+    background-color: var(--button-color);
   }
 }
 /* Header styles End *//*# sourceMappingURL=header.css.map */
