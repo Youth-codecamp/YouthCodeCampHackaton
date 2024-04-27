@@ -31,9 +31,8 @@ The Youth Code Camp Hackathon is a day-long event designed to bring together you
 
 1. **Bring Your Own Equipment**: Bring your laptops and necessary equipment.
 2. **Respectful Collaboration**: Maintain a collaborative and respectful environment.
-3. **Project Showcase Guidelines**: Follow the guidelines provided for the project showcase.
-4. **Code of Conduct**: Abide by the event's code of conduct.
-5. **Registration Deadline**: All participants should register according to the registration deadline.
+3. **Code of Conduct**: Abide by the event's code of conduct.
+4. **Registration Deadline**: All participants should register according to the registration deadline.
 
 ## Join Our Discord! 💬
 
