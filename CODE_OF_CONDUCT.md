@@ -2,43 +2,20 @@
 
 Welcome to the Youth Code Camp Hackathon! We want everyone to feel safe and respected here. So, we have some rules for how we should all behave:
 
-## 1. Inclusivity and Respect
+1. **Be Respectful:** Treat everyone with kindness, respect, and empathy. Harassment and discrimination of any form will not be tolerated.
 
-- Treat everyone nicely, no matter who they are or where they come from.
-- We should all get along and help each other out.
+2. **Collaborate:** Work together in a positive and constructive manner. Embrace diversity of thought and background.
 
-## 2. Collaboration and Cooperation
+3. **Maintain a Safe Environment:** Help us create a safe space by reporting any inappropriate behavior to the organizers immediately.
 
-- Let's all work together and share our ideas.
-- Encourage sharing of knowledge and resources to help each other succeed.
+4. **Follow the Rules:** Adhere to the event rules and guidelines provided by the organizers. Failure to comply may result in removal from the event.
 
-## 3. Act Like a Pro
+5. **Respect Privacy:** Respect the privacy and personal boundaries of others. Do not share personal information without consent.
 
-- Behave well, both online and offline.
-- Don't do anything that could upset or scare anyone.
+6. **Use Appropriate Language:** Use respectful and inclusive language in all communications and interactions.
 
-## 4. Respect for Space and Property
+7. **Be Responsible:** Take responsibility for your actions and their impact on others. Be accountable for your behavior.
 
-- Respect the place where we're meeting and any equipment we're using.
-- Don't damage anything or make a mess.
+8. **Have Fun:** While we're here to learn and innovate, let's also enjoy the experience and have fun together!
 
-## 5. Follow the Rules
-
-- Stick to the rules and laws.
-- Don't use things that belong to someone else without permission.
-
-## 6. Reporting Violations
-
-- If something bad happens or someone's not acting right, tell one of the organizers.
-- We'll keep it private and sort it out.
-
-## 7. Consequences of Violation
-
-- If you don't follow these rules, you might have to leave the event.
-- If you do something really bad, you might not be allowed to come back.
-
-By joining the Youth Code Camp Hackathon, you're agreeing to follow these rules. Thanks for helping to make our event awesome for everyone!
-
-If you have any questions or problems with these rules, just talk to one of the organizers.
-
-Let's have a great time together!
+If you have any questions, concerns, or experience any issues related to the code of conduct, please reach out to the organizers. Thank you for helping us create a positive and welcoming environment for all participants.
