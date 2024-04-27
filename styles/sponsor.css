@@ -207,3 +207,11 @@ padding-right: 30px;
         margin-right: 25px;
     }
 }
+
+
+.sponsor_img img{
+    max-width: 265px;
+    height: 170px;
+    border-radius: 10px;
+    display: block;
+}

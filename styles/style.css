@@ -45,7 +45,7 @@
  }
 
  .separator-line {
-  background-color: #45A3A9;
+  background-color: var(--button-color);
   height: 2px;
   margin: 0;
   padding: 0;
