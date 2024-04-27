@@ -25,7 +25,7 @@ Welcome to the Youth Code Camp Hackathon! Get ready for an exciting day of codin
 
 ## About the Hackathon 🌐
 
-The Youth Code Camp Hackathon is a day-long event designed to bring together young programmers for a day of collaborative coding and innovation. Participants will have the opportunity to learn, continue, and enhance their projects related to web application, mobile app development, and artificial intelligence.
+The Youth Code Camp Hackathon is a day-long event designed to bring together young programmers for a day of collaborative coding and innovation. Participants will have the opportunity to learn, continue, and enhance their programming skills in the areas of web application development, mobile app development, and artificial intelligence.
 
 ## Rules of Participation 📝
 
