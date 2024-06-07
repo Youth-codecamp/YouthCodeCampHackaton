@@ -5,7 +5,7 @@ Welcome to the Youth Code Camp Hackathon! Get ready for an exciting day of codin
 
 ## Event Details 📅
 
-- **Date**: July 20, 2024
+- **Date**: August 10th, 2024
 - **Time**: 8:00 AM - 6:30 PM
 - **Location**: KK 2 Avenue, Kigali (Lycee de Kigali)
 
