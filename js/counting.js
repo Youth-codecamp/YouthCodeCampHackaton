@@ -15,4 +15,4 @@ function activateCountdown(element, dateString) {
 
 }
 
-activateCountdown(document.getElementById("myCountdown"), "2024-8-16");
+activateCountdown(document.getElementById("myCountdown"), "2024-8-10");
