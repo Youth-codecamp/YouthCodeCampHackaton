@@ -5,7 +5,7 @@ Welcome to the Youth Code Camp Hackathon! Get ready for an exciting day of codin
 
 ## Event Details 📅
 
-- **Date**: August 24th, 2024
+- **Date**: August 15th, 2024
 - **Time**: 8:00 AM - 7:00 PM
 - **Location**: KN 193 ST, Kabusunzu, Nyakabanda, Kigali, Rwanda(RICEM)
 
